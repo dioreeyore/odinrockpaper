@@ -28,6 +28,8 @@ function checkWinner(playerSelection, computerSelection){
     }
 }
 
+//im fairly certain that the playRound function can be folded into checkWinner
+
 function playRound(playerSelection, computerSelection){
     const result = checkWinner(playerSelection, computerSelection);
     if(result == "Tie"){
